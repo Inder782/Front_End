@@ -33,9 +33,7 @@ const Navbar = () => {
         </SignedOut>
         <ThemeSelector />
 
-        <div className="">
-          <Mobilenav />
-        </div>
+        <Mobilenav />
       </div>
     </div>
   );

@@ -1,9 +1,7 @@
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import React from "react";
@@ -14,10 +12,8 @@ import Image from "next/image";
 const Mobilenav = () => {
   return (
     <Sheet>
-      <SheetTrigger>
-        <Button variant="outline" className="dark:invert">
-          ?
-        </Button>
+      <SheetTrigger className="bg-black rounded-full w-11 h-11 dark:bg-gray-700 text-white ">
+        ?
       </SheetTrigger>
       <SheetContent side="top" className="dark:invert">
         <SheetHeader className="flex gap-4 justify-center items-center ">

@@ -9,6 +9,7 @@ const Roboto = Roboto_Condensed({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Invtool",
   description: "Ai for investors",
+  icons: "/logo.svg",
 };
 
 export default function RootLayout({
